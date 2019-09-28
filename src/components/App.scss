@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: $font;
+}
+
+.App {
+  main {
+    margin-top: 76px;
+    display: flex;
+
+    @media (max-width: $breakpoint) {
+      display: block;
+    }
+
+  }
+}

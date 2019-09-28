@@ -1,0 +1,77 @@
+@import './variables.scss';
+
+.Sidebar {
+  width: 300px;
+  padding: 32px;
+  background-color: $lightgrey;
+  // background: rgb(0,0,0);
+  // background: linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 100%);
+  height: calc(100vh - 76px);
+  position: fixed;
+  top: 76px;
+  left: 0;
+  
+  @media (max-width: $breakpoint) {
+    display: block;
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  button {
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    width: 80%;
+    padding: 16px 32px;
+    border: 2px solid $orange;
+    background: $orange;
+    color: $white;
+    font-size: 18px;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-family: $font;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: $transition;
+       
+    @media (max-width: $breakpoint) {
+      position: static;
+      margin-top: 16px;
+      width: 100%;
+      margin-left: 0;
+      font-size: 14px;
+    }
+
+    &:hover {
+      background: $white;
+      color: $orange;
+    }
+  }
+
+  .refine-your-search {
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 1px solid $lightgrey2;
+    font-weight: 600;
+  }
+
+  .filter-label {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    span {
+       text-transform: uppercase;
+    }
+  }
+
+  .range-container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}

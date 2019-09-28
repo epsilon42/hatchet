@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+.LocationList {
+  width: calc(100% - 300px);    
+  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+
+  .no-results {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .icon {
+      display: block;
+      font-size: 48px;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+}

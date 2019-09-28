@@ -1,0 +1,63 @@
+@import './variables.scss';
+
+.Header {
+  display: flex;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  .site-title {
+    padding: 16px;
+    width: 300px;
+    background-color: $black;
+    text-align: center;
+    h1 {
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      font-weight: 400;
+      color: #fff;
+    }
+  }
+  .search {
+    background-color: $lightgrey3;
+    background-color: rgba($lightgrey3, 0.95);
+    width: calc(100% - 300px);
+    position: relative;
+    input {
+      padding: 28px 32px;
+      font-size: 20px;
+      border-radius: 32px;
+      border: 0;
+      outline: none;
+      // width: 400px;
+      width: 100%;
+      max-width: 100%;
+      background-color: transparent;
+      font-family: $font;
+    }
+    .icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 20px;
+      font-size: 32px;
+      pointer-events: none;
+      color: $lightgrey;
+
+      @media (max-width: $breakpoint) {
+        padding: 24px;
+      }
+    }
+  }
+  @media (max-width: $breakpoint) {
+    display: block;
+    position: static;
+    .search, .site-title {
+      width: 100%;
+    }
+  }
+}
