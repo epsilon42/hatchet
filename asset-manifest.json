@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hatchet/static/css/main.55a88d7b.chunk.css",
+    "main.js": "/hatchet/static/js/main.bc20d04e.chunk.js",
+    "main.js.map": "/hatchet/static/js/main.bc20d04e.chunk.js.map",
+    "runtime-main.js": "/hatchet/static/js/runtime-main.38d23cbd.js",
+    "runtime-main.js.map": "/hatchet/static/js/runtime-main.38d23cbd.js.map",
+    "static/css/2.82b81569.chunk.css": "/hatchet/static/css/2.82b81569.chunk.css",
+    "static/js/2.20d83e8b.chunk.js": "/hatchet/static/js/2.20d83e8b.chunk.js",
+    "static/js/2.20d83e8b.chunk.js.map": "/hatchet/static/js/2.20d83e8b.chunk.js.map",
+    "index.html": "/hatchet/index.html",
+    "precache-manifest.9cd5cad75fe944a00663ccd33adab833.js": "/hatchet/precache-manifest.9cd5cad75fe944a00663ccd33adab833.js",
+    "service-worker.js": "/hatchet/service-worker.js",
+    "static/css/2.82b81569.chunk.css.map": "/hatchet/static/css/2.82b81569.chunk.css.map",
+    "static/css/main.55a88d7b.chunk.css.map": "/hatchet/static/css/main.55a88d7b.chunk.css.map",
+    "static/js/2.20d83e8b.chunk.js.LICENSE": "/hatchet/static/js/2.20d83e8b.chunk.js.LICENSE",
+    "static/media/index.css": "/hatchet/static/media/dosis-all-800.c2433b06.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38d23cbd.js",
+    "static/css/2.82b81569.chunk.css",
+    "static/js/2.20d83e8b.chunk.js",
+    "static/css/main.55a88d7b.chunk.css",
+    "static/js/main.bc20d04e.chunk.js"
+  ]
+}
