@@ -2,9 +2,9 @@
 
 ![](screenshot.png)
 
-This project is the result of a coding test for a job application.
+An interface for a property listing web app created in React.
 
-A JSON file with the property details (mock API response), and a basic wireframe were provided. The task was to code an app that could search and filter by the different criteria in the API response.
+Uses a JSON file with the property details as a mock API response.
 
 Live demo: https://epsilon42.github.io/hatchet/
 
